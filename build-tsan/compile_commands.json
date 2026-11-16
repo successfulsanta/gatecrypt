@@ -1,0 +1,194 @@
+[
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/config/config.cc.o -c /home/hari/gatecrypt/src/config/config.cc",
+  "file": "/home/hari/gatecrypt/src/config/config.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/config/config.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/observability/logger.cc.o -c /home/hari/gatecrypt/src/observability/logger.cc",
+  "file": "/home/hari/gatecrypt/src/observability/logger.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/observability/logger.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/observability/metrics.cc.o -c /home/hari/gatecrypt/src/observability/metrics.cc",
+  "file": "/home/hari/gatecrypt/src/observability/metrics.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/observability/metrics.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/crypto/secure.cc.o -c /home/hari/gatecrypt/src/crypto/secure.cc",
+  "file": "/home/hari/gatecrypt/src/crypto/secure.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/crypto/secure.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/crypto/software_key_store.cc.o -c /home/hari/gatecrypt/src/crypto/software_key_store.cc",
+  "file": "/home/hari/gatecrypt/src/crypto/software_key_store.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/crypto/software_key_store.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/crypto/nonce_manager.cc.o -c /home/hari/gatecrypt/src/crypto/nonce_manager.cc",
+  "file": "/home/hari/gatecrypt/src/crypto/nonce_manager.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/crypto/nonce_manager.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/protocol/framing.cc.o -c /home/hari/gatecrypt/src/protocol/framing.cc",
+  "file": "/home/hari/gatecrypt/src/protocol/framing.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/protocol/framing.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/core/credential_table.cc.o -c /home/hari/gatecrypt/src/core/credential_table.cc",
+  "file": "/home/hari/gatecrypt/src/core/credential_table.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/core/credential_table.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/core/verify_engine.cc.o -c /home/hari/gatecrypt/src/core/verify_engine.cc",
+  "file": "/home/hari/gatecrypt/src/core/verify_engine.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/core/verify_engine.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/storage/crc32c.cc.o -c /home/hari/gatecrypt/src/storage/crc32c.cc",
+  "file": "/home/hari/gatecrypt/src/storage/crc32c.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/storage/crc32c.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/storage/wal.cc.o -c /home/hari/gatecrypt/src/storage/wal.cc",
+  "file": "/home/hari/gatecrypt/src/storage/wal.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/storage/wal.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/storage/merkle.cc.o -c /home/hari/gatecrypt/src/storage/merkle.cc",
+  "file": "/home/hari/gatecrypt/src/storage/merkle.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/storage/merkle.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/storage/revocation.cc.o -c /home/hari/gatecrypt/src/storage/revocation.cc",
+  "file": "/home/hari/gatecrypt/src/storage/revocation.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/storage/revocation.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/storage/sync.cc.o -c /home/hari/gatecrypt/src/storage/sync.cc",
+  "file": "/home/hari/gatecrypt/src/storage/sync.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/storage/sync.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/net/epoll_server.cc.o -c /home/hari/gatecrypt/src/net/epoll_server.cc",
+  "file": "/home/hari/gatecrypt/src/net/epoll_server.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/net/epoll_server.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/net/tls.cc.o -c /home/hari/gatecrypt/src/net/tls.cc",
+  "file": "/home/hari/gatecrypt/src/net/tls.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/net/tls.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt.dir/src/observability/metrics_server.cc.o -c /home/hari/gatecrypt/src/observability/metrics_server.cc",
+  "file": "/home/hari/gatecrypt/src/observability/metrics_server.cc",
+  "output": "CMakeFiles/gatecrypt.dir/src/observability/metrics_server.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecryptd.dir/src/daemon/main.cc.o -c /home/hari/gatecrypt/src/daemon/main.cc",
+  "file": "/home/hari/gatecrypt/src/daemon/main.cc",
+  "output": "CMakeFiles/gatecryptd.dir/src/daemon/main.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt-issue.dir/src/tools/issue_cli.cc.o -c /home/hari/gatecrypt/src/tools/issue_cli.cc",
+  "file": "/home/hari/gatecrypt/src/tools/issue_cli.cc",
+  "output": "CMakeFiles/gatecrypt-issue.dir/src/tools/issue_cli.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt-loadgen.dir/src/tools/loadgen.cc.o -c /home/hari/gatecrypt/src/tools/loadgen.cc",
+  "file": "/home/hari/gatecrypt/src/tools/loadgen.cc",
+  "output": "CMakeFiles/gatecrypt-loadgen.dir/src/tools/loadgen.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_smoke.cc.o -c /home/hari/gatecrypt/tests/test_smoke.cc",
+  "file": "/home/hari/gatecrypt/tests/test_smoke.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_smoke.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_crypto.cc.o -c /home/hari/gatecrypt/tests/test_crypto.cc",
+  "file": "/home/hari/gatecrypt/tests/test_crypto.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_crypto.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_protocol.cc.o -c /home/hari/gatecrypt/tests/test_protocol.cc",
+  "file": "/home/hari/gatecrypt/tests/test_protocol.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_protocol.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_ring.cc.o -c /home/hari/gatecrypt/tests/test_ring.cc",
+  "file": "/home/hari/gatecrypt/tests/test_ring.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_ring.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_table.cc.o -c /home/hari/gatecrypt/tests/test_table.cc",
+  "file": "/home/hari/gatecrypt/tests/test_table.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_table.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_wal.cc.o -c /home/hari/gatecrypt/tests/test_wal.cc",
+  "file": "/home/hari/gatecrypt/tests/test_wal.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_wal.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_merkle.cc.o -c /home/hari/gatecrypt/tests/test_merkle.cc",
+  "file": "/home/hari/gatecrypt/tests/test_merkle.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_merkle.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/src -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gatecrypt_tests.dir/tests/test_verify.cc.o -c /home/hari/gatecrypt/tests/test_verify.cc",
+  "file": "/home/hari/gatecrypt/tests/test_verify.cc",
+  "output": "CMakeFiles/gatecrypt_tests.dir/tests/test_verify.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock/include -I/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/clang++  -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++  -I/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -I/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/hari/gatecrypt/build-tsan/_deps/googletest-build/googletest",
+  "command": "/usr/bin/clang++  -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/include -isystem /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest -g -std=c++20 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -Wall -Wextra -Wpedantic -Werror -Wshadow -Wno-unused-parameter -Wno-character-conversion -fsanitize=thread -fno-omit-frame-pointer -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

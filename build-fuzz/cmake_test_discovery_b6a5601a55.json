@@ -1,0 +1,296 @@
+{
+  "tests": 46,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "Smoke",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ConfigDefaultsValid",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_smoke.cc",
+          "line": 10
+        },
+        {
+          "name": "Ed25519RoundTrip",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_smoke.cc",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "name": "Crypto",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "Rfc8032Test1",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 15
+        },
+        {
+          "name": "Rfc8032Test2",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 44
+        },
+        {
+          "name": "Rfc8032Test3",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 71
+        },
+        {
+          "name": "TamperedSigFails",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 95
+        },
+        {
+          "name": "ConstantTimeEqual",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 106
+        }
+      ]
+    },
+    {
+      "name": "Nonce",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "IssueConsumeOnce",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 112
+        },
+        {
+          "name": "UnknownFails",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 120
+        },
+        {
+          "name": "WrongSizeFails",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 126
+        },
+        {
+          "name": "BoundedEviction",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_crypto.cc",
+          "line": 132
+        }
+      ]
+    },
+    {
+      "name": "Protocol",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "FrameRoundTrip",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 7
+        },
+        {
+          "name": "BadMagic",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 17
+        },
+        {
+          "name": "Truncated",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 25
+        },
+        {
+          "name": "OversizeRejected",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 32
+        },
+        {
+          "name": "TrailingBytesRejected",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 40
+        },
+        {
+          "name": "VersionMismatch",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 48
+        },
+        {
+          "name": "VerifyRequestRoundTrip",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 57
+        },
+        {
+          "name": "VerifyRequestBadNonce",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 76
+        },
+        {
+          "name": "SignedMessageFormat",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_protocol.cc",
+          "line": 87
+        }
+      ]
+    },
+    {
+      "name": "Ring",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "PushPopSingle",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_ring.cc",
+          "line": 11
+        },
+        {
+          "name": "FullReturnsFalse",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_ring.cc",
+          "line": 20
+        },
+        {
+          "name": "FifoOrder",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_ring.cc",
+          "line": 26
+        },
+        {
+          "name": "RoundsUpPowerOfTwo",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_ring.cc",
+          "line": 36
+        },
+        {
+          "name": "MpmcSoak",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_ring.cc",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "InsertFind",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_table.cc",
+          "line": 11
+        },
+        {
+          "name": "ExactlyOnceUnderBurst",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_table.cc",
+          "line": 21
+        },
+        {
+          "name": "RevokeTerminal",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_table.cc",
+          "line": 37
+        },
+        {
+          "name": "DoubleScanBurstManyTickets",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_table.cc",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "name": "Wal",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "AppendReplay",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_wal.cc",
+          "line": 17
+        },
+        {
+          "name": "TornTailTruncated",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_wal.cc",
+          "line": 37
+        },
+        {
+          "name": "CrcMismatchTruncates",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_wal.cc",
+          "line": 63
+        },
+        {
+          "name": "Segments",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_wal.cc",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "name": "Merkle",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "EmptyRootZero",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_merkle.cc",
+          "line": 12
+        },
+        {
+          "name": "ProveVerify",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_merkle.cc",
+          "line": 17
+        },
+        {
+          "name": "RebuildDeterministic",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_merkle.cc",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "name": "Sync",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "MergeUnionNoConflict",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_merkle.cc",
+          "line": 58
+        },
+        {
+          "name": "ConflictLowestGateWins",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_merkle.cc",
+          "line": 67
+        }
+      ]
+    },
+    {
+      "name": "Verify",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "HappyPath",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 55
+        },
+        {
+          "name": "DoubleScanExactlyOnce",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 64
+        },
+        {
+          "name": "ReplayRejected",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 74
+        },
+        {
+          "name": "BadSigRejected",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 85
+        },
+        {
+          "name": "WrongDeviceKeyRejected",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 94
+        },
+        {
+          "name": "UnknownTicket",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 105
+        },
+        {
+          "name": "RevokedRejected",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 111
+        },
+        {
+          "name": "OfflineLatencyUnder3ms",
+          "file": "\/home\/hari\/gatecrypt\/tests\/test_verify.cc",
+          "line": 119
+        }
+      ]
+    }
+  ]
+}

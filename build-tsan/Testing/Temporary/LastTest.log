@@ -1,0 +1,543 @@
+Start testing: Nov 16 19:42 IST
+----------------------------------------------------------
+18/46 Testing: Protocol.VerifyRequestRoundTrip
+18/46 Test: Protocol.VerifyRequestRoundTrip
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Protocol.VerifyRequestRoundTrip" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Protocol.VerifyRequestRoundTrip" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Protocol.VerifyRequestRoundTrip
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Protocol
+[ RUN      ] Protocol.VerifyRequestRoundTrip
+[       OK ] Protocol.VerifyRequestRoundTrip (0 ms)
+[----------] 1 test from Protocol (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Protocol.VerifyRequestRoundTrip" end time: Nov 16 19:42 IST
+"Protocol.VerifyRequestRoundTrip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/46 Testing: Protocol.VerifyRequestBadNonce
+19/46 Test: Protocol.VerifyRequestBadNonce
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Protocol.VerifyRequestBadNonce" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Protocol.VerifyRequestBadNonce" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Protocol.VerifyRequestBadNonce
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Protocol
+[ RUN      ] Protocol.VerifyRequestBadNonce
+[       OK ] Protocol.VerifyRequestBadNonce (0 ms)
+[----------] 1 test from Protocol (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Protocol.VerifyRequestBadNonce" end time: Nov 16 19:42 IST
+"Protocol.VerifyRequestBadNonce" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/46 Testing: Ring.PushPopSingle
+21/46 Test: Ring.PushPopSingle
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Ring.PushPopSingle" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Ring.PushPopSingle" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Ring.PushPopSingle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ring
+[ RUN      ] Ring.PushPopSingle
+[       OK ] Ring.PushPopSingle (0 ms)
+[----------] 1 test from Ring (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Ring.PushPopSingle" end time: Nov 16 19:42 IST
+"Ring.PushPopSingle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/46 Testing: Ring.FullReturnsFalse
+22/46 Test: Ring.FullReturnsFalse
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Ring.FullReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Ring.FullReturnsFalse" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Ring.FullReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ring
+[ RUN      ] Ring.FullReturnsFalse
+[       OK ] Ring.FullReturnsFalse (0 ms)
+[----------] 1 test from Ring (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Ring.FullReturnsFalse" end time: Nov 16 19:42 IST
+"Ring.FullReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/46 Testing: Ring.FifoOrder
+23/46 Test: Ring.FifoOrder
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Ring.FifoOrder" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Ring.FifoOrder" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Ring.FifoOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ring
+[ RUN      ] Ring.FifoOrder
+[       OK ] Ring.FifoOrder (0 ms)
+[----------] 1 test from Ring (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Ring.FifoOrder" end time: Nov 16 19:42 IST
+"Ring.FifoOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/46 Testing: Ring.RoundsUpPowerOfTwo
+24/46 Test: Ring.RoundsUpPowerOfTwo
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Ring.RoundsUpPowerOfTwo" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Ring.RoundsUpPowerOfTwo" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Ring.RoundsUpPowerOfTwo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ring
+[ RUN      ] Ring.RoundsUpPowerOfTwo
+[       OK ] Ring.RoundsUpPowerOfTwo (0 ms)
+[----------] 1 test from Ring (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Ring.RoundsUpPowerOfTwo" end time: Nov 16 19:42 IST
+"Ring.RoundsUpPowerOfTwo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/46 Testing: Ring.MpmcSoak
+25/46 Test: Ring.MpmcSoak
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Ring.MpmcSoak" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Ring.MpmcSoak" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Ring.MpmcSoak
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Ring
+[ RUN      ] Ring.MpmcSoak
+[       OK ] Ring.MpmcSoak (102 ms)
+[----------] 1 test from Ring (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (102 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"Ring.MpmcSoak" end time: Nov 16 19:42 IST
+"Ring.MpmcSoak" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/46 Testing: Table.InsertFind
+26/46 Test: Table.InsertFind
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Table.InsertFind" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Table.InsertFind" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Table.InsertFind
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Table
+[ RUN      ] Table.InsertFind
+[       OK ] Table.InsertFind (0 ms)
+[----------] 1 test from Table (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Table.InsertFind" end time: Nov 16 19:42 IST
+"Table.InsertFind" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/46 Testing: Table.ExactlyOnceUnderBurst
+27/46 Test: Table.ExactlyOnceUnderBurst
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Table.ExactlyOnceUnderBurst" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Table.ExactlyOnceUnderBurst" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Table.ExactlyOnceUnderBurst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Table
+[ RUN      ] Table.ExactlyOnceUnderBurst
+[       OK ] Table.ExactlyOnceUnderBurst (2 ms)
+[----------] 1 test from Table (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Table.ExactlyOnceUnderBurst" end time: Nov 16 19:42 IST
+"Table.ExactlyOnceUnderBurst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/46 Testing: Table.RevokeTerminal
+28/46 Test: Table.RevokeTerminal
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Table.RevokeTerminal" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Table.RevokeTerminal" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Table.RevokeTerminal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Table
+[ RUN      ] Table.RevokeTerminal
+[       OK ] Table.RevokeTerminal (0 ms)
+[----------] 1 test from Table (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Table.RevokeTerminal" end time: Nov 16 19:42 IST
+"Table.RevokeTerminal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/46 Testing: Table.DoubleScanBurstManyTickets
+29/46 Test: Table.DoubleScanBurstManyTickets
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Table.DoubleScanBurstManyTickets" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Table.DoubleScanBurstManyTickets" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Table.DoubleScanBurstManyTickets
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Table
+[ RUN      ] Table.DoubleScanBurstManyTickets
+[       OK ] Table.DoubleScanBurstManyTickets (7 ms)
+[----------] 1 test from Table (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (7 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Table.DoubleScanBurstManyTickets" end time: Nov 16 19:42 IST
+"Table.DoubleScanBurstManyTickets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/46 Testing: Merkle.ProveVerify
+35/46 Test: Merkle.ProveVerify
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Merkle.ProveVerify" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Merkle.ProveVerify" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Merkle.ProveVerify
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Merkle
+[ RUN      ] Merkle.ProveVerify
+[       OK ] Merkle.ProveVerify (3 ms)
+[----------] 1 test from Merkle (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"Merkle.ProveVerify" end time: Nov 16 19:42 IST
+"Merkle.ProveVerify" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/46 Testing: Verify.HappyPath
+39/46 Test: Verify.HappyPath
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.HappyPath" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.HappyPath" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.HappyPath
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.HappyPath
+[       OK ] Verify.HappyPath (4 ms)
+[----------] 1 test from Verify (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.HappyPath" end time: Nov 16 19:42 IST
+"Verify.HappyPath" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/46 Testing: Verify.DoubleScanExactlyOnce
+40/46 Test: Verify.DoubleScanExactlyOnce
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.DoubleScanExactlyOnce" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.DoubleScanExactlyOnce" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.DoubleScanExactlyOnce
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.DoubleScanExactlyOnce
+[       OK ] Verify.DoubleScanExactlyOnce (5 ms)
+[----------] 1 test from Verify (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.DoubleScanExactlyOnce" end time: Nov 16 19:42 IST
+"Verify.DoubleScanExactlyOnce" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/46 Testing: Verify.ReplayRejected
+41/46 Test: Verify.ReplayRejected
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.ReplayRejected" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.ReplayRejected" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.ReplayRejected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.ReplayRejected
+[       OK ] Verify.ReplayRejected (4 ms)
+[----------] 1 test from Verify (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.ReplayRejected" end time: Nov 16 19:42 IST
+"Verify.ReplayRejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/46 Testing: Verify.BadSigRejected
+42/46 Test: Verify.BadSigRejected
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.BadSigRejected" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.BadSigRejected" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.BadSigRejected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.BadSigRejected
+[       OK ] Verify.BadSigRejected (5 ms)
+[----------] 1 test from Verify (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.BadSigRejected" end time: Nov 16 19:42 IST
+"Verify.BadSigRejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/46 Testing: Verify.WrongDeviceKeyRejected
+43/46 Test: Verify.WrongDeviceKeyRejected
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.WrongDeviceKeyRejected" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.WrongDeviceKeyRejected" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.WrongDeviceKeyRejected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.WrongDeviceKeyRejected
+[       OK ] Verify.WrongDeviceKeyRejected (4 ms)
+[----------] 1 test from Verify (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.WrongDeviceKeyRejected" end time: Nov 16 19:42 IST
+"Verify.WrongDeviceKeyRejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/46 Testing: Verify.UnknownTicket
+44/46 Test: Verify.UnknownTicket
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.UnknownTicket" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.UnknownTicket" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.UnknownTicket
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.UnknownTicket
+[       OK ] Verify.UnknownTicket (4 ms)
+[----------] 1 test from Verify (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.UnknownTicket" end time: Nov 16 19:42 IST
+"Verify.UnknownTicket" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/46 Testing: Verify.RevokedRejected
+45/46 Test: Verify.RevokedRejected
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.RevokedRejected" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.RevokedRejected" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.RevokedRejected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.RevokedRejected
+[       OK ] Verify.RevokedRejected (4 ms)
+[----------] 1 test from Verify (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.RevokedRejected" end time: Nov 16 19:42 IST
+"Verify.RevokedRejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/46 Testing: Verify.OfflineLatencyUnder3ms
+46/46 Test: Verify.OfflineLatencyUnder3ms
+Command: "/home/hari/gatecrypt/build-tsan/gatecrypt_tests" "--gtest_filter=Verify.OfflineLatencyUnder3ms" "--gtest_also_run_disabled_tests"
+Directory: /home/hari/gatecrypt/build-tsan
+"Verify.OfflineLatencyUnder3ms" start time: Nov 16 19:42 IST
+Output:
+----------------------------------------------------------
+Running main() from /home/hari/gatecrypt/build-tsan/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Verify.OfflineLatencyUnder3ms
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Verify
+[ RUN      ] Verify.OfflineLatencyUnder3ms
+[       OK ] Verify.OfflineLatencyUnder3ms (334 ms)
+[----------] 1 test from Verify (334 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (334 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"Verify.OfflineLatencyUnder3ms" end time: Nov 16 19:42 IST
+"Verify.OfflineLatencyUnder3ms" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 16 19:42 IST

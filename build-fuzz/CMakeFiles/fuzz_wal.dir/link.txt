@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -fsanitize=fuzzer,address -Xlinker --dependency-file=CMakeFiles/fuzz_wal.dir/link.d CMakeFiles/fuzz_wal.dir/fuzz/fuzz_wal.cc.o -o fuzz_wal  libgatecrypt.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lpthread

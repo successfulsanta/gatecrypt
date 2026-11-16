@@ -1,0 +1,8 @@
+39:Verify.HappyPath
+40:Verify.DoubleScanExactlyOnce
+41:Verify.ReplayRejected
+42:Verify.BadSigRejected
+43:Verify.WrongDeviceKeyRejected
+44:Verify.UnknownTicket
+45:Verify.RevokedRejected
+46:Verify.OfflineLatencyUnder3ms

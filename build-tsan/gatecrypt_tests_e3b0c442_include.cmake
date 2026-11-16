@@ -1,0 +1,5 @@
+if(EXISTS "/home/hari/gatecrypt/build-tsan/gatecrypt_tests_e3b0c442_tests.cmake")
+  include("/home/hari/gatecrypt/build-tsan/gatecrypt_tests_e3b0c442_tests.cmake")
+else()
+  add_test(gatecrypt_tests_NOT_BUILT gatecrypt_tests_NOT_BUILT)
+endif()

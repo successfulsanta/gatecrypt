@@ -1,0 +1,21 @@
+Protocol.VerifyRequestRoundTrip 1 0.0331179
+Protocol.VerifyRequestBadNonce 1 0.0255237
+Ring.PushPopSingle 1 0.020532
+Ring.FullReturnsFalse 1 0.019587
+Ring.FifoOrder 1 0.0237024
+Ring.RoundsUpPowerOfTwo 1 0.02617
+Ring.MpmcSoak 1 0.148582
+Table.InsertFind 1 0.0192809
+Table.ExactlyOnceUnderBurst 1 0.021854
+Table.RevokeTerminal 1 0.0162196
+Table.DoubleScanBurstManyTickets 1 0.0321964
+Merkle.ProveVerify 1 0.0364168
+Verify.HappyPath 1 0.0190427
+Verify.DoubleScanExactlyOnce 1 0.0290773
+Verify.ReplayRejected 1 0.0276224
+Verify.BadSigRejected 1 0.0343714
+Verify.WrongDeviceKeyRejected 1 0.0283444
+Verify.UnknownTicket 1 0.0254367
+Verify.RevokedRejected 1 0.0333635
+Verify.OfflineLatencyUnder3ms 1 0.361884
+---
