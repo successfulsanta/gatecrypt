@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -Xlinker --dependency-file=CMakeFiles/gatecrypt-issue.dir/link.d "CMakeFiles/gatecrypt-issue.dir/src/tools/issue_cli.cc.o" -o gatecrypt-issue  libgatecrypt.a /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lpthread

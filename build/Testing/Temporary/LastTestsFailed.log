@@ -1,7 +1,0 @@
-30:Wal.AppendReplay
-31:Wal.TornTailTruncated
-32:Wal.CrcMismatchTruncates
-33:Wal.Segments
-39:Verify.HappyPath
-40:Verify.DoubleScanExactlyOnce
-46:Verify.OfflineLatencyUnder3ms
