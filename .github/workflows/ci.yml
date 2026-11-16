@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
-      - name: Install clang-format
-        run: sudo apt-get update && sudo apt-get install -y clang-format
+      - name: Install clang-format (pinned, matches dev machines)
+        run: pip3 install --break-system-packages 'clang-format==23.1.5'
       - name: Check format
-        run: clang-format --version && find src tests fuzz -name '*.cc' -o -name '*.h' | xargs clang-format --dry-run --Werror
+        run: ~/.local/bin/clang-format --version && find src tests fuzz \( -name '*.cc' -o -name '*.h' \) | xargs ~/.local/bin/clang-format --dry-run --Werror

@@ -4,18 +4,6 @@
 
 namespace gatecrypt {
 
-static void Put32BE(std::vector<uint8_t>& o, uint32_t v) {
-  o.push_back((uint8_t)(v >> 24));
-  o.push_back((uint8_t)(v >> 16));
-  o.push_back((uint8_t)(v >> 8));
-  o.push_back((uint8_t)v);
-}
-
-static void Put16BE(std::vector<uint8_t>& o, uint16_t v) {
-  o.push_back((uint8_t)(v >> 8));
-  o.push_back((uint8_t)v);
-}
-
 static uint32_t Get32BE(const uint8_t* p) {
   return ((uint32_t)p[0] << 24) | ((uint32_t)p[1] << 16) | ((uint32_t)p[2] << 8) | (uint32_t)p[3];
 }
@@ -23,13 +11,28 @@ static uint32_t Get32BE(const uint8_t* p) {
 static uint16_t Get16BE(const uint8_t* p) { return (uint16_t)(((uint16_t)p[0] << 8) | p[1]); }
 
 std::vector<uint8_t> EncodeFrame(MsgType type, const uint8_t* payload, size_t len) {
+  // NOTE: built with a single resize + indexed stores (no reserve+push_back).
+  // GCC 12+ -O2 emits a bogus -Wfree-nonheap-object on the reserve/push_back
+  // idiom after inlining through stdlib internals; indexed stores avoid it
+  // and are also fewer branches on the hot path.
   std::vector<uint8_t> o;
-  o.reserve(kHeaderBytes + len);
-  Put32BE(o, kMagic);
-  Put16BE(o, kVersion);
-  Put16BE(o, (uint16_t)type);
-  Put32BE(o, (uint32_t)len);
-  if (len && payload) o.insert(o.end(), payload, payload + len);
+  o.resize(kHeaderBytes + len);
+  uint8_t* p = o.data();
+  p[0] = (uint8_t)(kMagic >> 24);
+  p[1] = (uint8_t)(kMagic >> 16);
+  p[2] = (uint8_t)(kMagic >> 8);
+  p[3] = (uint8_t)kMagic;
+  p[4] = (uint8_t)(kVersion >> 8);
+  p[5] = (uint8_t)kVersion;
+  uint16_t t = (uint16_t)type;
+  p[6] = (uint8_t)(t >> 8);
+  p[7] = (uint8_t)t;
+  uint32_t l = (uint32_t)len;
+  p[8] = (uint8_t)(l >> 24);
+  p[9] = (uint8_t)(l >> 16);
+  p[10] = (uint8_t)(l >> 8);
+  p[11] = (uint8_t)l;
+  if (len && payload) memcpy(p + kHeaderBytes, payload, len);
   return o;
 }
 

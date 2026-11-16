@@ -14,9 +14,12 @@ add_compile_options(
   $<$<CXX_COMPILER_ID:GNU,Clang,AppleClang>:-Werror>
   $<$<CXX_COMPILER_ID:GNU,Clang,AppleClang>:-Wshadow>
   $<$<CXX_COMPILER_ID:GNU,Clang,AppleClang>:-Wno-unused-parameter>
-  # gtest 1.14 trips -Wcharacter-conversion under clang 21; keep our code clean
-  # but don't fail the build on third-party headers.
-  $<$<CXX_COMPILER_ID:Clang>:-Wno-character-conversion>
+  # GCC 12+ -O2/-O3 false positive on inlined stdlib internals
+  # (free-nonheap-object fires on vector code, not ours). Keep as warning.
+  $<$<CXX_COMPILER_ID:GNU>:-Wno-error=free-nonheap-object>
+  # gtest 1.14 trips -Wcharacter-conversion (char8_t) under Clang;
+  # third-party header, keep as warning so -Werror stays for our code.
+  $<$<CXX_COMPILER_ID:Clang,AppleClang>:-Wno-error=character-conversion>
 )
 
 find_package(OpenSSL 3.0 REQUIRED)
