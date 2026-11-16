@@ -117,8 +117,8 @@ int main(int argc, char** argv) {
     std::cerr << "server start: " << err << "\n";
     return 1;
   }
-  MetricsServer metrics(cfg.metrics_port, [] { return Metrics::Instance().Render(); },
-                          [] { return !g_stop.load(); });
+  MetricsServer metrics(
+      cfg.metrics_port, [] { return Metrics::Instance().Render(); }, [] { return !g_stop.load(); });
   std::string merr;
   if (!metrics.Start(merr)) {
     GC_LOG_WARN("metrics", std::string("metrics server: ") + merr);
